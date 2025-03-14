@@ -1,0 +1,21 @@
+name: Review Assign
+
+on:
+  pull_request:
+    types: [opened, ready_for_review]
+
+permissions:
+  pull-requests: write  
+  contents: read        
+  issues: write        
+  repository-projects: write
+  
+jobs:
+  assign:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: hkusu/review-assign-action@v1
+        with:
+          assignees: ${{ github.actor }} # assign pull reㄴquest author
+          reviewers: snikuz12, tteia, 34suuuuu
+          max-num-of-reviewers: 0
