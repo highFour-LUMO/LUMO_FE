@@ -1,24 +1,6 @@
-# lumo
+<div align="center">
 
-## Project setup
-```
-npm install
-```
+  # ✨ 𝑳𝒖𝒎𝒊𝒏𝒐𝒖𝒔 𝑴𝒐𝒎𝒆𝒏𝒕𝒔 ✨
+반짝이는 당신의 순간을 기록하세요
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+</div>
