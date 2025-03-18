@@ -1,5 +1,5 @@
 {
-  "name": "lumo",
+  "name": "lumo-client",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^1.8.3",
     "core-js": "^3.8.3",
+    "firebase": "^10.5.0",
     "vue": "^3.2.13",
     "vue-router": "^4.5.0",
     "vuetify": "^3.7.16"
