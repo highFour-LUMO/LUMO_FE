@@ -7,7 +7,7 @@ const app = createApp(App);
 app.use(router);
 app.mount("#app");
 
-// 🔥 FCM 초기화 시작
+// FCM 초기화 시작
 console.log("FCM 초기화 시작...");
 
 //  1. 서비스 워커 등록 (FCM 사용을 위해 필수)
