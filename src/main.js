@@ -2,9 +2,13 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from "@/router/index.js";
 import { messaging, getToken, onMessage } from "@/firebase/config";
+import vuetify from "@/plugins/vuetify";
+
 
 const app = createApp(App);
 app.use(router);
+app.use(vuetify)
+
 app.mount("#app");
 
 // FCM 초기화 시작
