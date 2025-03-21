@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-main>
+    <v-main class="main-contents">
       <router-view />
     </v-main>
   </v-app>
@@ -22,5 +22,10 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+.main-contents {
+  background-color: black;
+  color: white;
 }
 </style>
