@@ -10,8 +10,8 @@
                 <v-tab class="tab-content" @click="$router.push('/diary')">다이어리</v-tab>
                 <v-tab class="tab-content" @click="$router.push('/friends')">친구칭기</v-tab>
             </v-tabs>
-            <v-card class="diary-card" variant="flat">
-                내꺼 다이어리 보여주는 페이지로 하께요~
+            <v-card class="calendar-card" variant="flat">
+                캘린더 페이지로 하꼐요~~~
             </v-card>
         </template>
     </OverlayComponent>
