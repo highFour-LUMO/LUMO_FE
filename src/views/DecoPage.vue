@@ -1,6 +1,6 @@
 <template>
     <div class="deco-container">
-        <button class="floating-btn" @click="$router.push('/home')">
+        <button class="floating-btn" @click="$router.push('/calendar')">
             <v-icon icon="mdi-home-outline" style="font-size: 60px;" />
         </button>
     </div>
