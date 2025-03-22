@@ -25,7 +25,14 @@ export default {
 }
 
 .main-contents {
-  background-color: black;
-  color: white;
+  position: relative;
+  height: 100vh;
+  background-color: #000;
+  color: #fff;
+
+  /* 이 부분에 전반적인 배경을 지정할 예정
+  background-image: url('./img/nightsky.jpg');
+  background-size: cover;
+  color: white;*/
 }
 </style>
