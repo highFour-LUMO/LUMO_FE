@@ -1,5 +1,5 @@
 <template>
-    <v-container class="fill-height d-flex justify-center align-center" style="width: 70vw;">
+    <v-container class="fill-height d-flex justify-center align-center background" style="width: 70vw;">
         <v-row>
             <v-col cols="5" class="content">
                 <h1 class="fade-in" style="font-size: 32px; font-weight: 700; margin-bottom: 20px">
@@ -29,6 +29,8 @@ export default {
         return {
             isLogin: false,
             profileUrl: null,
+            showDialog: true,
+
         };
     },
     mounted() {
@@ -67,8 +69,8 @@ export default {
 }
 
 .black-btn {
-    background-color: #000 !important;
-    color: #fff !important;
+    background-color: #fff !important;
+    color: #000 !important;
     border: none !important;
     font-weight: bold;
     margin-top: 10px;
@@ -76,6 +78,5 @@ export default {
 
 .black-btn:hover {
     background-color: #333 !important;
-    /* 호버 시 배경색 변경 */
 }
 </style>
